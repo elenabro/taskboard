@@ -1,0 +1,87 @@
+.taskTile{
+    background-color: rgb(123, 162, 154);
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(152, 154, 171, 0.1);
+    transition: transform 0.8s ease-in-out;
+}
+
+.title{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-underline-position: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.id{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.status{
+    font-weight: bold
+}
+
+.statusUPDATED{
+    background-color: rgba(54, 218, 76, 0.3);
+    color:rgb(40, 129, 66)
+}
+
+.statusNEW{
+    background-color: rgba(125, 110, 224, 0.758);
+    color:rgb(75, 14, 149)
+}
+
+.statusOK{
+    background-color: rgba(151, 101, 35, 0.1);
+    color:rgba(88, 74, 5, 0.884)
+}
+
+.statusDONE{
+    background-color: rgba(215, 122, 122, 0.3);
+    color:rgb(145, 25, 25)
+}
+
+.statusUPDATE{
+    background-color: rgba(54, 218, 76, 0.3);
+    color:rgb(40, 129, 66)
+}
+
+.statusSTRING  {
+    background-color: rgba(237, 116, 164, 0.758);
+    color:rgb(108, 14, 42)
+}
+
+.statusUPDATED2{
+    background-color: rgba(54, 218, 76, 0.3);
+    color:rgb(40, 129, 66)
+}
+
+.statusOPEN{
+    background-color: rgba(125, 110, 224, 0.758);
+    color:rgb(75, 14, 149)
+}
+
+.statusNEWEST{
+    background-color: rgba(125, 110, 224, 0.758);
+    color:rgb(75, 14, 149)
+}
+
+.statusTASK_CREATION{
+    background-color: rgba(21, 20, 26, 0.071);
+    color:rgb(75, 14, 149)
+}
+
+.statusTASK_PUT_CHANGE{
+    background-color: rgba(223, 220, 240, 0.822);
+    color:rgb(30, 29, 31)
+}
