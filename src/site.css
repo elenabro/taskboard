@@ -1,0 +1,10 @@
+.site_background {
+  padding: 10px;
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+#site_body{
+    background-color: rgb(124, 160, 157);
+}
