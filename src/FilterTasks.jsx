@@ -3,8 +3,16 @@ import React from "react";
 const FilterTasks = ({filter,setFilter}) => {
     return(
         <div>  
-            <select id="filter" value={filter} onChange={(e) => setFilter(e.target.value)}
+            <div className="d-flex align-items-center">
+            <i className="fas fa-filter"> 
+
+            </i>
+            <select id="filter" 
+                value={filter} 
+                onChange={(e) => setFilter(e.target.value)}
                 >
+        
+                
                     <option value="ALL">ALL</option>
                     <option value="New">NEW</option>
                     <option value="UPDATE">UPDATE</option>
@@ -22,6 +30,7 @@ const FilterTasks = ({filter,setFilter}) => {
                     <option value="OPEN">OPEN</option>
                     
             </select>
+        </div>
         </div>
        );
 

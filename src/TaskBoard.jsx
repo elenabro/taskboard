@@ -45,24 +45,26 @@ const TaskBoard = () => {
 
 
     return (
-        <div>
-            <FilterTasks filter={filter} setFilter={setFilter} />
-            
-            <div className={styles.taskBoard}>
-                {
-                    tasks.length === 0 ? (<p>Loading in progress ...</p>
-
-                    ) : (
-                        filteredTasks.map((task) =>  <TaskCard key={task.id} task={task} />)
-                    )  
-                  }                 
-                          
-                
+    <div>
+        <div className={styles.topTools}>
+            <div className="row">
+                <div className="col-md-3">
+                    <FilterTasks filter={filter} setFilter={setFilter} />
+                </div>
             </div>
+         </div>
+
+
+                <div className={styles.taskBoard}>
+                  {tasks.length === 0 ? (<p>Loading in progress ...</p>) : (
+                        filteredTasks.map((task) => ( <TaskCard key={task.id} task={task} />))
+                    )
+                   }
+                </div>
         </div>
+    
     );
-
+    
 };
-
 export default TaskBoard;
 
